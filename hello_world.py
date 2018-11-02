@@ -7,4 +7,4 @@ with open('README.md', 'r') as myfile:
 			version= match.group()
 	
 
-print("Hello world! This master2!!! Version: " + str(version))
+print("Hello world! This master3!!! Version: " + str(version))
