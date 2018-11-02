@@ -1,3 +1,10 @@
 # My hello world:
+import re
+pattern = re.compile("version (\d\.\d)")
+with open('README.md', 'r') as myfile:
+	for i, line in enumerate(myfile):
+		for match in re.finditer(pattern, line):
+			version= match.group()
+	
 
-print("Version 1.4")
+print("Hello world! Version: " + str(version))
