@@ -8,3 +8,4 @@ with open('README.md', 'r') as myfile:
 	
 
 print("Hello world! This is master! Version: " + str(version))
+print("Hello world! This is branch2!! Version: " + str(version))
